@@ -1,0 +1,67 @@
+.header li a{
+    text-decoration: none;
+}
+/* -------Product-Add-Form-------------- */
+.product-add-form .card{
+    display: none;
+}
+/* ------------Age Calculator--------------- */
+.age-calculator{
+    width: 500px;
+    margin: 30px auto 0 auto;
+}
+.age-calculator ul{
+    text-align: center;
+    padding-left: 0;
+    margin-top: 1rem;
+}
+.age-calculator ul li{
+    display: inline-block;
+}
+.age-calculator ul li span {
+    font-size: 30px;
+    font-weight: 500;
+    border: 1px solid #ddd;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    margin: 0 6px;
+    border-radius: 6px;
+}
+.age-calculator ul li p{
+    margin-top: 8px;
+    font-weight: bold;
+}
+/* -------Fiverr----------- */
+.fiver-wraper{
+    width: 500px;
+    margin: 30px auto 30px auto;
+}
+.fiver-wraper span {
+    border: 1px solid #ddd;
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    line-height: 70px;
+    border-radius: 6px;
+    background: #fafafa;
+    font-size: 36px;
+    font-weight: 500;
+}
+.fiver-wraper ul{
+    padding: 0;
+}
+.fiver-wraper ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px;
+}
+.fiver-wraper ul li p{
+    font-weight: bold;
+    margin-top: 8px;
+}
+.name p{
+    display: inline-block;
+    padding: 0 17px;
+}

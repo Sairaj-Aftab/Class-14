@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../style.css">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+
+    <section class="header text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <ul>
+                        <li class="list-group-item d-inline-block font-weight-bold bg-success"><a href="../index.html" class="text-light">Products</a></li>
+                        <li class="list-group-item d-inline-block font-weight-bold bg-success"><a href="../team.html" class="text-light">Team Member</a></li>
+                        <li class="list-group-item d-inline-block font-weight-bold bg-success"><a href="../age-calculator.html" class="text-light">Age Calculator</a></li>
+                        <li class="list-group-item d-inline-block font-weight-bold bg-success"><a href="../fiverr-counter.html" class="text-light">Fiverr Delivery Timer</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="product-add-form">
+        <div class="container my-3">
+            <div class="row">
+                <div class="col-md-3"></div>
+                <div class="col-md-6">
+                    <button class="top-btn btn btn-primary mb-3">Add New Product</button>
+                    <div class="card shadow">
+                        <div class="card-header text-center d-flex justify-content-between">
+                            <h4>Add New Product</h4>
+                            <button class="close">&times;</button>
+                        </div>
+                        <div class="card-body">
+                            <form action="" class="add-form">
+                                <div class="form-group mb-2">
+                                    <input id="product-name" type="text" class="form-control" placeholder="Product Name...">
+                                </div>
+                                <div class="form-group mb-2">
+                                    <input id="product-price" type="text" class="form-control" placeholder="Product Price...">
+                                </div>
+                                <div class="form-group mb-2">
+                                    <input id="sale-price" type="text" class="form-control" placeholder="Sale Price...">
+                                </div>
+                                <div class="form-group mb-2">
+                                    <input id="product-photo" type="text" class="form-control" placeholder="Product Photo Link...">
+                                </div>
+                                <div class="form-group">
+                                    <input type="submit" class="btn btn-primary btn-block" value="Add New Product">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3"></div>
+            </div>
+        </div>
+    </section>
+    <section class="product">
+        <div class="container">
+            <div class="row plist">
+                
+            </div>
+        </div>
+    </section>
+      
+
+    <!-- Optional JavaScript -->
+    <script src="../function.js"></script>
+    <script src="../product.js"></script>
+    <!-- Popper.js first, then Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"></script>
+  </body>
+</html>
